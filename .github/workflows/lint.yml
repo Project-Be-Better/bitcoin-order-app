@@ -3,7 +3,7 @@ name: "linting-tool-scan"
 on:
   push:
     branches: [githubcicd]
-
+# test
 jobs:
   test:
     runs-on: ubuntu-latest
