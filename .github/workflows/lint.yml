@@ -37,7 +37,7 @@ jobs:
         run: npm ci --legacy-peer-deps
 
       - name: Install JSHint locally
-        run: npm install jshint --no-save
+        run: npm install jshint --legacy-peer-deps --no-save
 
       - name: Run JSHint
         run: |
